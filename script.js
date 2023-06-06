@@ -18,7 +18,7 @@ const bodyDiv = document.querySelector(".bodyDiv");
 
 
 openButton.addEventListener("click", function() {
-    bodyDiv.style.backgroundColor = "#b3fbd9"
+    bodyDiv.style.backgroundColor = "#b3fbd9";
     sidebar.style.display = "block";
     closeButton.style.display = "block";
     openButton.style.display = "none";
@@ -271,5 +271,7 @@ function updateScore(score) {
 
 theme = document.getElementById("theme");
 theme.onclick = function() {
+    bodyDiv.style.backgroundColor = "#0C134F";
+
     document.body.classList.toggle("dark-theme");
 }

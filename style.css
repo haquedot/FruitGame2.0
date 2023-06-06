@@ -65,6 +65,10 @@ body {
     touch-action: manipulation;
 }
 
+.startBtn:hover {
+    background-color: var(--hover-color);
+}
+
 h1 {
     color: var(--text-color);
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -266,7 +270,7 @@ h1 {
 }
 
 .nav:hover {
-    background-color: #444;
+    background-color: var(--hover-color);
 }
 
 .sidebar {
